@@ -19,8 +19,8 @@ x = {15496, 11, 475, 645, 284, ...}
 ```
 <div align="center">
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](img/image.png)
+![alt text](img/image-1.png)
 </div>
 
 1. one hot vector $O_h$ has dimension = N(vocab)
@@ -41,3 +41,12 @@ $$
    \mu &= \dfrac{\Sigma(x_i)}{H}
 \end{align*}
 $$
+
+- i.e. Normalization of input vector $x$ = {(786 elements) - mean of all 786 elements of vector x} / {std. deviation}
+
+## Attention block
+
+<div align="center">
+
+![alt text](img/image-2.png)****
+</div>
