@@ -33,11 +33,9 @@ x = {15496, 11, 475, 645, 284, ...}
 >Row dimensionality of the input is N(seq) in positional embedding
 
 $$
-\begin{align*}
-   Norm(x) &= \dfrac{x_i-\mu}{\sqrt{\sigma^2}} \\
-   
-   \sigma^2 &= \dfrac{\Sigma(x_i-\mu)^2}{H} \\
-   
-   \mu &= \dfrac{\Sigma(x_i)}{H}
-\end{align*}
+    \begin{aligned}
+    Norm(x) &= \dfrac{x_i-\mu}{\sqrt{\sigma^2}} \\
+    \sigma^2 &= \dfrac{\Sigma(x_i-\mu)^2}{H} \\
+    \mu &= \dfrac{\Sigma(x_i)}{H}
+    \end{aligned}
 $$
