@@ -21,6 +21,7 @@ x = {15496, 11, 475, 645, 284, ...}
 
 ![alt text](img/image.png)
 ![alt text](img/image-1.png)
+
 </div>
 
 1. one hot vector $O_h$ has dimension = N(vocab)
@@ -48,5 +49,6 @@ $$
 
 <div align="center">
 
-![alt text](img/image-2.png)****
+<img src="img/image-2.png" width="200" height="400">
+
 </div>
